@@ -11,6 +11,12 @@ console.log("Second array:", arr2);
 console.log("First array:", arr1);
 
 // Copying an array
+let arr3 = [4, 5, 6];
+let arr4 = [...arr3];
+
+arr4.push(7);
+console.log("Third array:", arr3);
+console.log("Fourth array:", arr4);
 
 // Copying an object
 
